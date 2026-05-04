@@ -1,0 +1,70 @@
+.requests-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #f8fafc;
+  overflow: hidden;
+  position: relative;
+}
+
+.requests-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.workspace-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+  color: #1e293b;
+}
+
+.subtab-button {
+  padding-bottom: 1rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  font-size: 0.625rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom-width: 2px;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.subtab-active {
+  border-color: #2563eb;
+  color: #1e293b;
+}
+
+.subtab-inactive {
+  border-color: #00000000;
+  color: #94a3b8;
+}
+
+.subtab-inactive:hover {
+  color: #334155;
+}
+
+.request-card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.request-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-color: #eff6ff;
+}
+
+.undo-toast {
+  background-color: #0f172a;
+  color: #ffffff;
+  border: 1px solid #ffffff1a;
+}

@@ -1,0 +1,38 @@
+.petition-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: #0f172a66;
+  backdrop-filter: blur(4px);
+}
+
+.petition-modal-content {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 56rem; /* 4xl */
+  border-radius: 0.75rem;
+  box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.25);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-height: 96vh;
+}
+
+.petition-modal-header {
+  padding: 1rem 1.5rem;
+  flex-shrink: 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.petition-modal-footer {
+  padding: 1rem;
+  background-color: #f8fafc80; /* slate-50/50 */
+  border-top: 1px solid #f1f5f9;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,38 @@
+.settings-container {
+  display: flex;
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+  background-color: #f8fafc;
+}
+
+.settings-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.toggle-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f8fafc80; /* slate-50/50 */
+  border-radius: 0.75rem;
+  border: 1px solid #f1f5f9;
+  transition: all 0.2s;
+}
+
+.toggle-item:hover {
+  border-color: #eff6ff;
+}
+
+.settings-header-title {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: #bcd3e6;
+}

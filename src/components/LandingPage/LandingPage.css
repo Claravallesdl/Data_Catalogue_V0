@@ -1,0 +1,40 @@
+.landing-container {
+  background-image: linear-gradient(#00000008 1px, #00000000 1px), linear-gradient(90deg, #00000008 1px, #00000000 1px);
+  background-size: 20px 20px;
+}
+
+.landing-title {
+  color: var(--color-slate-900);
+  letter-spacing: -0.05em;
+  font-family: 'Inter', sans-serif;
+}
+
+.landing-tagline {
+  color: var(--color-accent-blue);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.action-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-slate-200);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s;
+}
+
+.action-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-color: var(--color-accent-blue);
+}
+
+.action-card-icon {
+  background-color: var(--color-slate-50);
+  color: var(--color-slate-700);
+  transition: all 0.2s;
+}
+
+.action-card:hover .action-card-icon {
+  background-color: var(--color-primary-50);
+  color: var(--color-accent-blue);
+}

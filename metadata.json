@@ -1,0 +1,5 @@
+{
+  "name": "VHIO Data Catalogue",
+  "description": "A sophisticated medical data dashboard for oncology researchers featuring hierarchical Sunburst visualizations, multi-dimensional filtering, and data export capabilities.",
+  "requestFramePermissions": []
+}

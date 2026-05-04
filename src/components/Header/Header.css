@@ -1,0 +1,20 @@
+.header-container {
+  background-color: #0f172a;
+  border-bottom: 1px solid #ffffff0d;
+}
+
+.nav-link {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.2s;
+  font-size: 0.75rem;
+}
+
+.logo-text-main {
+  color: #ffffff;
+}
+
+.logo-text-sub {
+  color: #3b82f6;
+}
